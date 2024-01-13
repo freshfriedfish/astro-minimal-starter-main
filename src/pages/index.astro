@@ -1,0 +1,79 @@
+---
+import Layout from "../layouts/Base.astro";
+import Container from "../components/Container.astro";
+
+const seo = {
+  title: "Astro Minimal Starter",
+  description:
+    "This is a starter repo for an blog built with Astro including open graph tags, canonical urls, RSS, sitemap support.",
+};
+---
+
+<Layout {seo}>
+  <Container>
+    <h1>Hi! I'm shaf.</h1>
+    <p>I'm a web developer interested in making cool shit :)</p>
+    <a href="https://github.com/freshfriedfish">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        width="30px"
+      />
+    </a>
+    <span></span>
+    <a href="https://gitlab.com/smanzur">
+      <img
+        src="https://static-00.iconduck.com/assets.00/gitlab-icon-2048x1885-1o0cwkbx.png"
+        width="30px"
+      />
+    </a>
+
+    <a href="mailto:shafayatmanzur@gmail.com">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"
+        width="25px"
+      />
+    </a>
+
+    <a href="https://www.linkedin.com/">
+      <img
+        src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
+        width="25px"
+      />
+    </a>
+
+    <hr />
+    <h2>Currently working on...</h2>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/freshfriedfish/radial-designer-old"
+          ><u>portfolio:</u></a
+        >You're looking at it! Built using Astro & deployed using Github
+        Actions.
+      </li>
+      <li>
+        <a href="https://github.com/freshfriedfish/radial-designer-old"
+          ><u>svgosu:</u></a
+        >Node.js CLI for converting SVG files into osu! objects.
+      </li>
+      <li>
+        <a href="https://github.com/freshfriedfish/radial-designer-old"
+          ><u>radial-designer:</u></a
+        >Online tool for osu! players to make and export geometric patterns.
+      </li>
+    </ul>
+    <h2>Blog</h2>
+    <ul>
+      <li><a href="blog/example-blog"> <u>Lalala</u></a></li>
+      <li><a href="blog/example-blog"> <u>anotha one</u></a></li>
+    </ul>
+
+    <div id="yotsuba"></div>
+  </Container>
+</Layout>
